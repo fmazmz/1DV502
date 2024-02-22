@@ -1,0 +1,12 @@
+/home/whiter0se/LNU/1DV502/assignment-2/app/build/classes/java/main/assignmenttwo/solitares/Moon.class
+/home/whiter0se/LNU/1DV502/assignment-2/app/build/classes/java/main/assignmenttwo/solitares/Planet.class
+/home/whiter0se/LNU/1DV502/assignment-2/app/build/classes/java/main/assignmenttwo/solitares/Star.class
+/home/whiter0se/LNU/1DV502/assignment-2/app/build/classes/java/main/assignmenttwo/solarsystem/Moon.class
+/home/whiter0se/LNU/1DV502/assignment-2/app/build/classes/java/main/assignmenttwo/solarsystem/HeavenlyBody.class
+/home/whiter0se/LNU/1DV502/assignment-2/app/build/classes/java/main/assignmenttwo/solarsystem/Planet.class
+/home/whiter0se/LNU/1DV502/assignment-2/app/build/classes/java/main/assignmenttwo/solarsystem/Star.class
+/home/whiter0se/LNU/1DV502/assignment-2/app/build/classes/java/main/assignmenttwo/refactoredsolitares/Moon.class
+/home/whiter0se/LNU/1DV502/assignment-2/app/build/classes/java/main/assignmenttwo/refactoredsolitares/HeavenlyBody.class
+/home/whiter0se/LNU/1DV502/assignment-2/app/build/classes/java/main/assignmenttwo/refactoredsolitares/Planet.class
+/home/whiter0se/LNU/1DV502/assignment-2/app/build/classes/java/main/assignmenttwo/refactoredsolitares/Star.class
+/home/whiter0se/LNU/1DV502/assignment-2/app/build/classes/java/main/assignmenttwo/App.class

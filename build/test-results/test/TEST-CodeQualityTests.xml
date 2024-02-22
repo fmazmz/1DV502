@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="CodeQualityTests" tests="1" skipped="0" failures="0" errors="0" timestamp="2024-02-21T05:57:35" hostname="machine" time="0.053">
+  <properties/>
+  <testcase name="codeQuality()" classname="CodeQualityTests" time="0.053"/>
+  <system-out><![CDATA[0 CheckStyle Issues in /home/whiter0se/LNU/1DV502/assignment-2/app/src/main/java/assignmenttwo/App.java
+0 CheckStyle Issues in /home/whiter0se/LNU/1DV502/assignment-2/app/src/main/java/assignmenttwo/solitares/Moon.java
+0 CheckStyle Issues in /home/whiter0se/LNU/1DV502/assignment-2/app/src/main/java/assignmenttwo/solitares/Star.java
+0 CheckStyle Issues in /home/whiter0se/LNU/1DV502/assignment-2/app/src/main/java/assignmenttwo/solitares/Planet.java
+0 CheckStyle Issues in /home/whiter0se/LNU/1DV502/assignment-2/app/src/main/java/assignmenttwo/solarsystem/Moon.java
+0 CheckStyle Issues in /home/whiter0se/LNU/1DV502/assignment-2/app/src/main/java/assignmenttwo/solarsystem/Star.java
+0 CheckStyle Issues in /home/whiter0se/LNU/1DV502/assignment-2/app/src/main/java/assignmenttwo/solarsystem/Planet.java
+0 CheckStyle Issues in /home/whiter0se/LNU/1DV502/assignment-2/app/src/main/java/assignmenttwo/solarsystem/HeavenlyBody.java
+0 CheckStyle Issues in /home/whiter0se/LNU/1DV502/assignment-2/app/src/main/java/assignmenttwo/refactoredsolitares/Moon.java
+0 CheckStyle Issues in /home/whiter0se/LNU/1DV502/assignment-2/app/src/main/java/assignmenttwo/refactoredsolitares/Star.java
+0 CheckStyle Issues in /home/whiter0se/LNU/1DV502/assignment-2/app/src/main/java/assignmenttwo/refactoredsolitares/Planet.java
+0 CheckStyle Issues in /home/whiter0se/LNU/1DV502/assignment-2/app/src/main/java/assignmenttwo/refactoredsolitares/HeavenlyBody.java
+1 FindBugs Issues in assignmenttwo/solarsystem/Moon.java
+text:lines: 19-57 
+Exception thrown in class assignmenttwo.solarsystem.Moon at new 
+  assignmenttwo.solarsystem.Moon(String, int, double) will leave the constructor. The object under 
+  construction remains partially initialized and may be vulnerable to Finalizer attacks. 
+Be wary of letting constructors throw exceptions. 
+Classes that throw exceptions in their constructors are vulnerable to Finalizer attacks 
+ 
+A finalizer attack can be prevented, by declaring the class final, using an empty finalizer declared 
+  as final, or by a clever use of a private constructor. 
+ 
+See SEI CERT Rule OBJ-11 for more information.
+
+1 FindBugs Issues in assignmenttwo/solarsystem/Planet.java
+text:lines: 12-101 
+Exception thrown in class assignmenttwo.solarsystem.Planet at new 
+  assignmenttwo.solarsystem.Planet(String, int, double) will leave the constructor. The object under 
+  construction remains partially initialized and may be vulnerable to Finalizer attacks. 
+Be wary of letting constructors throw exceptions. 
+Classes that throw exceptions in their constructors are vulnerable to Finalizer attacks 
+ 
+A finalizer attack can be prevented, by declaring the class final, using an empty finalizer declared 
+  as final, or by a clever use of a private constructor. 
+ 
+See SEI CERT Rule OBJ-11 for more information.
+
+1 FindBugs Issues in assignmenttwo/refactoredsolitares/HeavenlyBody.java
+text:lines: 17-84 
+Exception thrown in class assignmenttwo.refactoredsolitares.HeavenlyBody at new 
+  assignmenttwo.refactoredsolitares.HeavenlyBody(String, int) will leave the constructor. The object 
+  under construction remains partially initialized and may be vulnerable to Finalizer attacks. 
+Be wary of letting constructors throw exceptions. 
+Classes that throw exceptions in their constructors are vulnerable to Finalizer attacks 
+ 
+A finalizer attack can be prevented, by declaring the class final, using an empty finalizer declared 
+  as final, or by a clever use of a private constructor. 
+ 
+See SEI CERT Rule OBJ-11 for more information.
+
+1 FindBugs Issues in assignmenttwo/solarsystem/HeavenlyBody.java
+text:lines: 7-93 
+Exception thrown in class assignmenttwo.solarsystem.HeavenlyBody at new 
+  assignmenttwo.solarsystem.HeavenlyBody(String, int) will leave the constructor. The object under 
+  construction remains partially initialized and may be vulnerable to Finalizer attacks. 
+Be wary of letting constructors throw exceptions. 
+Classes that throw exceptions in their constructors are vulnerable to Finalizer attacks 
+ 
+A finalizer attack can be prevented, by declaring the class final, using an empty finalizer declared 
+  as final, or by a clever use of a private constructor. 
+ 
+See SEI CERT Rule OBJ-11 for more information.
+
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

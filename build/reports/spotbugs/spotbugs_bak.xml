@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<BugCollection version="4.8.3" sequence="0" timestamp="1708495051474" analysisTimestamp="1708495051474" release="">
+  <Project projectName="app (spotbugsMain)">
+    <Jar>/home/whiter0se/LNU/1DV502/assignment-2/app/build/classes/java/main/assignmenttwo/solitares/Moon.class</Jar>
+    <Jar>/home/whiter0se/LNU/1DV502/assignment-2/app/build/classes/java/main/assignmenttwo/solitares/Planet.class</Jar>
+    <Jar>/home/whiter0se/LNU/1DV502/assignment-2/app/build/classes/java/main/assignmenttwo/solitares/Star.class</Jar>
+    <Jar>/home/whiter0se/LNU/1DV502/assignment-2/app/build/classes/java/main/assignmenttwo/solarsystem/Moon.class</Jar>
+    <Jar>/home/whiter0se/LNU/1DV502/assignment-2/app/build/classes/java/main/assignmenttwo/solarsystem/HeavenlyBody.class</Jar>
+    <Jar>/home/whiter0se/LNU/1DV502/assignment-2/app/build/classes/java/main/assignmenttwo/solarsystem/Planet.class</Jar>
+    <Jar>/home/whiter0se/LNU/1DV502/assignment-2/app/build/classes/java/main/assignmenttwo/solarsystem/Star.class</Jar>
+    <Jar>/home/whiter0se/LNU/1DV502/assignment-2/app/build/classes/java/main/assignmenttwo/refactoredsolitares/Moon.class</Jar>
+    <Jar>/home/whiter0se/LNU/1DV502/assignment-2/app/build/classes/java/main/assignmenttwo/refactoredsolitares/HeavenlyBody.class</Jar>
+    <Jar>/home/whiter0se/LNU/1DV502/assignment-2/app/build/classes/java/main/assignmenttwo/refactoredsolitares/Planet.class</Jar>
+    <Jar>/home/whiter0se/LNU/1DV502/assignment-2/app/build/classes/java/main/assignmenttwo/refactoredsolitares/Star.class</Jar>
+    <Jar>/home/whiter0se/LNU/1DV502/assignment-2/app/build/classes/java/main/assignmenttwo/App.class</Jar>
+    <AuxClasspathEntry>/home/whiter0se/.gradle/caches/modules-2/files-2.1/com.google.guava/guava/30.1.1-jre/87e0fd1df874ea3cbe577702fe6f17068b790fd8/guava-30.1.1-jre.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/home/whiter0se/.gradle/caches/modules-2/files-2.1/com.google.guava/failureaccess/1.0.1/1dcf1de382a0bf95a3d8b0849546c88bac1292c9/failureaccess-1.0.1.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/home/whiter0se/.gradle/caches/modules-2/files-2.1/com.google.guava/listenablefuture/9999.0-empty-to-avoid-conflict-with-guava/b421526c5f297295adef1c886e5246c39d4ac629/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/home/whiter0se/.gradle/caches/modules-2/files-2.1/com.google.code.findbugs/jsr305/3.0.2/25ea2e8b0c338a877313bd4672d3fe056ea78f0d/jsr305-3.0.2.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/home/whiter0se/.gradle/caches/modules-2/files-2.1/org.checkerframework/checker-qual/3.8.0/6b83e4a33220272c3a08991498ba9dc09519f190/checker-qual-3.8.0.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/home/whiter0se/.gradle/caches/modules-2/files-2.1/com.google.errorprone/error_prone_annotations/2.5.1/562d366678b89ce5d6b6b82c1a073880341e3fba/error_prone_annotations-2.5.1.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/home/whiter0se/.gradle/caches/modules-2/files-2.1/com.google.j2objc/j2objc-annotations/1.3/ba035118bc8bac37d7eff77700720999acd9986d/j2objc-annotations-1.3.jar</AuxClasspathEntry>
+    <SrcDir>/home/whiter0se/LNU/1DV502/assignment-2/app/src/main/resources</SrcDir>
+    <SrcDir>/home/whiter0se/LNU/1DV502/assignment-2/app/src/main/java</SrcDir>
+  </Project>
+  <BugInstance type="CT_CONSTRUCTOR_THROW" priority="2" rank="16" abbrev="CT" category="BAD_PRACTICE" instanceHash="9647d21c572ec8e1c2e026dfad1cbd8d" instanceOccurrenceNum="0" instanceOccurrenceMax="0">
+    <ShortMessage>Be wary of letting constructors throw exceptions.</ShortMessage>
+    <LongMessage>Exception thrown in class assignmenttwo.refactoredsolitares.HeavenlyBody at new assignmenttwo.refactoredsolitares.HeavenlyBody(String, int) will leave the constructor. The object under construction remains partially initialized and may be vulnerable to Finalizer attacks.</LongMessage>
+    <Class classname="assignmenttwo.refactoredsolitares.HeavenlyBody" primary="true">
+      <SourceLine classname="assignmenttwo.refactoredsolitares.HeavenlyBody" start="17" end="84" sourcefile="HeavenlyBody.java" sourcepath="assignmenttwo/refactoredsolitares/HeavenlyBody.java" relSourcepath="java/assignmenttwo/refactoredsolitares/HeavenlyBody.java">
+        <Message>At HeavenlyBody.java:[lines 17-84]</Message>
+      </SourceLine>
+      <Message>In class assignmenttwo.refactoredsolitares.HeavenlyBody</Message>
+    </Class>
+    <Method classname="assignmenttwo.refactoredsolitares.HeavenlyBody" name="&lt;init&gt;" signature="(Ljava/lang/String;I)V" isStatic="false" primary="true">
+      <SourceLine classname="assignmenttwo.refactoredsolitares.HeavenlyBody" start="17" end="20" startBytecode="0" endBytecode="88" sourcefile="HeavenlyBody.java" sourcepath="assignmenttwo/refactoredsolitares/HeavenlyBody.java" relSourcepath="java/assignmenttwo/refactoredsolitares/HeavenlyBody.java"/>
+      <Message>In method new assignmenttwo.refactoredsolitares.HeavenlyBody(String, int)</Message>
+    </Method>
+    <SourceLine classname="assignmenttwo.refactoredsolitares.HeavenlyBody" primary="true" start="18" end="18" startBytecode="6" endBytecode="6" sourcefile="HeavenlyBody.java" sourcepath="assignmenttwo/refactoredsolitares/HeavenlyBody.java" relSourcepath="java/assignmenttwo/refactoredsolitares/HeavenlyBody.java">
+      <Message>At HeavenlyBody.java:[line 18]</Message>
+    </SourceLine>
+    <SourceLine classname="assignmenttwo.refactoredsolitares.HeavenlyBody" start="18" end="18" startBytecode="6" endBytecode="6" sourcefile="HeavenlyBody.java" sourcepath="assignmenttwo/refactoredsolitares/HeavenlyBody.java" relSourcepath="java/assignmenttwo/refactoredsolitares/HeavenlyBody.java">
+      <Message>At HeavenlyBody.java:[line 18]</Message>
+    </SourceLine>
+  </BugInstance>
+  <BugInstance type="CT_CONSTRUCTOR_THROW" priority="2" rank="16" abbrev="CT" category="BAD_PRACTICE" instanceHash="f2725f2c0275d108fb33df78f1728caf" instanceOccurrenceNum="0" instanceOccurrenceMax="0">
+    <ShortMessage>Be wary of letting constructors throw exceptions.</ShortMessage>
+    <LongMessage>Exception thrown in class assignmenttwo.solarsystem.HeavenlyBody at new assignmenttwo.solarsystem.HeavenlyBody(String, int) will leave the constructor. The object under construction remains partially initialized and may be vulnerable to Finalizer attacks.</LongMessage>
+    <Class classname="assignmenttwo.solarsystem.HeavenlyBody" primary="true">
+      <SourceLine classname="assignmenttwo.solarsystem.HeavenlyBody" start="7" end="93" sourcefile="HeavenlyBody.java" sourcepath="assignmenttwo/solarsystem/HeavenlyBody.java" relSourcepath="java/assignmenttwo/solarsystem/HeavenlyBody.java">
+        <Message>At HeavenlyBody.java:[lines 7-93]</Message>
+      </SourceLine>
+      <Message>In class assignmenttwo.solarsystem.HeavenlyBody</Message>
+    </Class>
+    <Method classname="assignmenttwo.solarsystem.HeavenlyBody" name="&lt;init&gt;" signature="(Ljava/lang/String;I)V" isStatic="false" primary="true">
+      <SourceLine classname="assignmenttwo.solarsystem.HeavenlyBody" start="18" end="21" startBytecode="0" endBytecode="88" sourcefile="HeavenlyBody.java" sourcepath="assignmenttwo/solarsystem/HeavenlyBody.java" relSourcepath="java/assignmenttwo/solarsystem/HeavenlyBody.java"/>
+      <Message>In method new assignmenttwo.solarsystem.HeavenlyBody(String, int)</Message>
+    </Method>
+    <SourceLine classname="assignmenttwo.solarsystem.HeavenlyBody" primary="true" start="19" end="19" startBytecode="6" endBytecode="6" sourcefile="HeavenlyBody.java" sourcepath="assignmenttwo/solarsystem/HeavenlyBody.java" relSourcepath="java/assignmenttwo/solarsystem/HeavenlyBody.java">
+      <Message>At HeavenlyBody.java:[line 19]</Message>
+    </SourceLine>
+    <SourceLine classname="assignmenttwo.solarsystem.HeavenlyBody" start="19" end="19" startBytecode="6" endBytecode="6" sourcefile="HeavenlyBody.java" sourcepath="assignmenttwo/solarsystem/HeavenlyBody.java" relSourcepath="java/assignmenttwo/solarsystem/HeavenlyBody.java">
+      <Message>At HeavenlyBody.java:[line 19]</Message>
+    </SourceLine>
+  </BugInstance>
+  <BugInstance type="CT_CONSTRUCTOR_THROW" priority="2" rank="16" abbrev="CT" category="BAD_PRACTICE" instanceHash="d7924a34e361062699bd6d4253b331fb" instanceOccurrenceNum="0" instanceOccurrenceMax="0">
+    <ShortMessage>Be wary of letting constructors throw exceptions.</ShortMessage>
+    <LongMessage>Exception thrown in class assignmenttwo.solarsystem.Moon at new assignmenttwo.solarsystem.Moon(String, int, double) will leave the constructor. The object under construction remains partially initialized and may be vulnerable to Finalizer attacks.</LongMessage>
+    <Class classname="assignmenttwo.solarsystem.Moon" primary="true">
+      <SourceLine classname="assignmenttwo.solarsystem.Moon" start="19" end="57" sourcefile="Moon.java" sourcepath="assignmenttwo/solarsystem/Moon.java" relSourcepath="java/assignmenttwo/solarsystem/Moon.java">
+        <Message>At Moon.java:[lines 19-57]</Message>
+      </SourceLine>
+      <Message>In class assignmenttwo.solarsystem.Moon</Message>
+    </Class>
+    <Method classname="assignmenttwo.solarsystem.Moon" name="&lt;init&gt;" signature="(Ljava/lang/String;ID)V" isStatic="false" primary="true">
+      <SourceLine classname="assignmenttwo.solarsystem.Moon" start="19" end="24" startBytecode="0" endBytecode="140" sourcefile="Moon.java" sourcepath="assignmenttwo/solarsystem/Moon.java" relSourcepath="java/assignmenttwo/solarsystem/Moon.java"/>
+      <Message>In method new assignmenttwo.solarsystem.Moon(String, int, double)</Message>
+    </Method>
+    <SourceLine classname="assignmenttwo.solarsystem.Moon" primary="true" start="21" end="21" startBytecode="23" endBytecode="23" sourcefile="Moon.java" sourcepath="assignmenttwo/solarsystem/Moon.java" relSourcepath="java/assignmenttwo/solarsystem/Moon.java">
+      <Message>At Moon.java:[line 21]</Message>
+    </SourceLine>
+    <SourceLine classname="assignmenttwo.solarsystem.Moon" start="21" end="21" startBytecode="23" endBytecode="23" sourcefile="Moon.java" sourcepath="assignmenttwo/solarsystem/Moon.java" relSourcepath="java/assignmenttwo/solarsystem/Moon.java">
+      <Message>At Moon.java:[line 21]</Message>
+    </SourceLine>
+  </BugInstance>
+  <BugInstance type="CT_CONSTRUCTOR_THROW" priority="2" rank="16" abbrev="CT" category="BAD_PRACTICE" instanceHash="b6a70762ec0e9c908fa9c256423fffdf" instanceOccurrenceNum="0" instanceOccurrenceMax="0">
+    <ShortMessage>Be wary of letting constructors throw exceptions.</ShortMessage>
+    <LongMessage>Exception thrown in class assignmenttwo.solarsystem.Planet at new assignmenttwo.solarsystem.Planet(String, int, double) will leave the constructor. The object under construction remains partially initialized and may be vulnerable to Finalizer attacks.</LongMessage>
+    <Class classname="assignmenttwo.solarsystem.Planet" primary="true">
+      <SourceLine classname="assignmenttwo.solarsystem.Planet" start="12" end="101" sourcefile="Planet.java" sourcepath="assignmenttwo/solarsystem/Planet.java" relSourcepath="java/assignmenttwo/solarsystem/Planet.java">
+        <Message>At Planet.java:[lines 12-101]</Message>
+      </SourceLine>
+      <Message>In class assignmenttwo.solarsystem.Planet</Message>
+    </Class>
+    <Method classname="assignmenttwo.solarsystem.Planet" name="&lt;init&gt;" signature="(Ljava/lang/String;ID)V" isStatic="false" primary="true">
+      <SourceLine classname="assignmenttwo.solarsystem.Planet" start="23" end="28" startBytecode="0" endBytecode="155" sourcefile="Planet.java" sourcepath="assignmenttwo/solarsystem/Planet.java" relSourcepath="java/assignmenttwo/solarsystem/Planet.java"/>
+      <Message>In method new assignmenttwo.solarsystem.Planet(String, int, double)</Message>
+    </Method>
+    <SourceLine classname="assignmenttwo.solarsystem.Planet" primary="true" start="25" end="25" startBytecode="34" endBytecode="34" sourcefile="Planet.java" sourcepath="assignmenttwo/solarsystem/Planet.java" relSourcepath="java/assignmenttwo/solarsystem/Planet.java">
+      <Message>At Planet.java:[line 25]</Message>
+    </SourceLine>
+    <SourceLine classname="assignmenttwo.solarsystem.Planet" start="25" end="25" startBytecode="34" endBytecode="34" sourcefile="Planet.java" sourcepath="assignmenttwo/solarsystem/Planet.java" relSourcepath="java/assignmenttwo/solarsystem/Planet.java">
+      <Message>At Planet.java:[line 25]</Message>
+    </SourceLine>
+  </BugInstance>
+  <BugCategory category="BAD_PRACTICE">
+    <Description>Bad practice</Description>
+  </BugCategory>
+  <BugPattern type="CT_CONSTRUCTOR_THROW" abbrev="CT" category="BAD_PRACTICE">
+    <ShortDescription>Be wary of letting constructors throw exceptions.</ShortDescription>
+    <Details><![CDATA[
+      
+            <p>Classes that throw exceptions in their constructors are vulnerable to Finalizer attacks</p>
+
+            <p>A finalizer attack can be prevented, by declaring the class final, using an empty finalizer declared as final, or by a clever use of a private constructor.</p>
+
+            <p>See <a href="https://wiki.sei.cmu.edu/confluence/display/java/OBJ11-J.+Be+wary+of+letting+constructors+throw+exceptions"><code>SEI CERT Rule OBJ-11</code></a>
+            for more information.
+            </p>
+            
+    ]]></Details>
+  </BugPattern>
+  <BugCode abbrev="CT">
+    <Description>Constructor throws</Description>
+  </BugCode>
+  <Errors errors="0" missingClasses="0"></Errors>
+  <FindBugsSummary timestamp="Wed, 21 Feb 2024 06:57:31 +0100" total_classes="0" referenced_classes="0" total_bugs="4" total_size="0" num_packages="2" java_version="21.0.1" vm_version="21.0.1+12-LTS-29" cpu_seconds="24.87" clock_seconds="3.93" peak_mbytes="339.00" alloc_mbytes="11960.00" gc_seconds="0.05" priority_2="4">
+    <FileStats path="assignmenttwo/refactoredsolitares/HeavenlyBody.java" bugCount="1" size="0" bugHash="9c8f5f4aa9ce2eb4171c75211b1857d9"/>
+    <FileStats path="assignmenttwo/solarsystem/HeavenlyBody.java" bugCount="1" size="0" bugHash="d677796b6a34404577a1dc0b01bd2075"/>
+    <FileStats path="assignmenttwo/solarsystem/Moon.java" bugCount="1" size="0" bugHash="186eed61ad237ce07e1ffb65852c3383"/>
+    <FileStats path="assignmenttwo/solarsystem/Planet.java" bugCount="1" size="0" bugHash="2e8e1300abbc2504cc584028faa6233e"/>
+    <FindBugsProfile></FindBugsProfile>
+  </FindBugsSummary>
+  <ClassFeatures></ClassFeatures>
+  <History></History>
+</BugCollection>
